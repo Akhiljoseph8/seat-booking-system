@@ -1,0 +1,60 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 47px); 
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #f0f0f0;
+}
+
+.landing-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+.landing-header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #dcdcdc; 
+}
+
+.select-seat-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.select-seat-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .landing-header h1 {
+        font-size: 22px;
+    }
+
+    .landing-header p {
+        font-size: 16px;
+    }
+
+    .select-seat-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

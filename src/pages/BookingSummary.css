@@ -1,0 +1,74 @@
+
+.booking-summary {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .seat-list {
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 5px;
+  }
+  
+  .seat-summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  .total-cost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .book-now,
+  .back-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .book-now {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .book-now:hover {
+    background-color: #218838;
+  }
+  
+  .back-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirmation {
+    color: #155724;
+    background: #d4edda;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
